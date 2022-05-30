@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Watch List" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Map" />
+
+
+
+    </group>
+    <item android:title="Events">
+        <menu>
+            <item
+                android:id="@+id/nav_keynote"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Keynotes " />
+            <item
+                android:id="@+id/nav_masterclass"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Mater Classes" />
+
+            <item
+                android:id="@+id/nav_seminar"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Seminars" />
+            <item
+                android:id="@+id/nav_handshake"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Handshakes" />
+            <item
+                android:id="@+id/nav_exhibition"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Exhibitions" />
+            <item
+                android:id="@+id/nav_workshop"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Workshops" />
+            <item
+                android:id="@+id/nav_onspot"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Onspots" />
+            <item
+                android:id="@+id/nav_culturals"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Culturals" />
+
+        </menu>
+
+    </item>
+
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@android:drawable/stat_sys_phone_call"
+                android:title="Contact" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback Form" />
+        </menu>
+    </item>
+
+</menu>
