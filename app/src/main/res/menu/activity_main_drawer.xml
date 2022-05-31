@@ -7,50 +7,50 @@
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_baseline_home_24"
-            android:title="Watch List" />
+            android:title="@string/home" />
         <item
             android:id="@+id/nav_map"
             android:icon="@drawable/ic_baseline_map_24"
-            android:title="Map" />
+            android:title="@string/map" />
 
 
 
     </group>
-    <item android:title="Events">
+    <item android:title="@string/events">
         <menu>
             <item
                 android:id="@+id/nav_keynote"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Keynotes " />
+                android:title="@string/keynotes" />
             <item
                 android:id="@+id/nav_masterclass"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Mater Classes" />
+                android:title="@string/mater_classes" />
 
             <item
                 android:id="@+id/nav_seminar"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Seminars" />
+                android:title="@string/seminars" />
             <item
                 android:id="@+id/nav_handshake"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Handshakes" />
+                android:title="@string/handshakes" />
             <item
                 android:id="@+id/nav_exhibition"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Exhibitions" />
+                android:title="@string/exhibitions" />
             <item
                 android:id="@+id/nav_workshop"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Workshops" />
+                android:title="@string/workshops" />
             <item
                 android:id="@+id/nav_onspot"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Onspots" />
+                android:title="@string/onspots" />
             <item
                 android:id="@+id/nav_culturals"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Culturals" />
+                android:title="@string/culturals" />
 
         </menu>
 
@@ -59,21 +59,17 @@
 
 
 
-    <item android:title="Others">
+    <item android:title="@string/others">
         <menu>
             <item
                 android:id="@+id/nav_food"
-                android:icon="@android:drawable/ic_popup_reminder"
-                android:title="Share" />
+                android:icon="@drawable/ic_baseline_fastfood_24"
+                android:title="@string/food" />
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@android:drawable/stat_sys_phone_call"
-                android:title="Contact" />
+                android:title="@string/contact" />
 
-            <item
-                android:id="@+id/nav_feedback"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Feedback Form" />
         </menu>
     </item>
 
