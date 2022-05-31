@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "551857567579",
+    "firebase_url": "https://anc-21912-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "anc-21912",
+    "storage_bucket": "anc-21912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551857567579:android:c8cc557a1c8591d0db8c7e",
+        "android_client_info": {
+          "package_name": "com.example.a64thanc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551857567579-jtltt29b3gd78unuat99333dtnok3v9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKB4w0jZKHGXn7nKVy3SSAq2v41gtS4T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551857567579-jtltt29b3gd78unuat99333dtnok3v9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551857567579:android:e32e40205d4fd652db8c7e",
+        "android_client_info": {
+          "package_name": "com.example.nasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551857567579-jtltt29b3gd78unuat99333dtnok3v9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKB4w0jZKHGXn7nKVy3SSAq2v41gtS4T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551857567579-jtltt29b3gd78unuat99333dtnok3v9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
